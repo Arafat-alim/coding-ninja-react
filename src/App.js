@@ -2,13 +2,17 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  const name = "Arafat";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Hello World</h2>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>Hello {name}</h2>
+          <p>Today is {new Date().toDateString()}</p>
+        </header>
+      </div>
+    </>
   );
 }
 
