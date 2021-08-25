@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import SetStateDepth1 from "./Components/SetStateDepth1";
+import SetStateDepth2 from "./Components/SetStateDepth2";
 
 function App() {
   const name = "Arafat";
@@ -16,7 +17,8 @@ function App() {
         {/* <p>Today is {new Date().toDateString()}</p> */}
         {/* </header> */}
         {/* <MountingP /> */}
-        <SetStateDepth1 />
+        {/* <SetStateDepth1 /> */}
+        <SetStateDepth2 />
       </div>
     </>
   );
