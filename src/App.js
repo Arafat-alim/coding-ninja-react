@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MountingP from "./Components/MountingP";
+import SetStateDepth1 from "./Components/SetStateDepth1";
 
 function App() {
   const name = "Arafat";
@@ -15,7 +15,8 @@ function App() {
         {/* {isLogged && <h2>Hello {name}</h2>} */}
         {/* <p>Today is {new Date().toDateString()}</p> */}
         {/* </header> */}
-        <MountingP />
+        {/* <MountingP /> */}
+        <SetStateDepth1 />
       </div>
     </>
   );
