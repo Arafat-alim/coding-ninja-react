@@ -10,16 +10,27 @@ class MountingP extends Component {
     };
     console.log("Constructor");
   }
-  //object literals
+
+  //   handleCount = () => { //render nh hoga !!
+  //     this.state.count += 1;
+  //     console.log(this.state.count);
+  //   };
+  //   setstate form 1
   handleCount = () => {
     this.setState({
       count: this.state.count + 1,
     });
   };
-  //callback wala
+  //   setstate form 2
   handleDecrease = () => {
     this.setState((prevState) => {
-      count: prevState + this.state.count;
+      console.log(prevState);
+      if (prevState.count === 0) {
+        return;
+      }
+      return {
+        count: prevState.count - 1,
+      };
     });
   };
   render() {
