@@ -1,7 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SetStateDepth1 from "./Components/SetStateDepth1";
-import SetStateDepth2 from "./Components/SetStateDepth2";
+
+import LifecycleMounting from "./Components/MountingPhase/LifecycleMounting";
+import LifeCycleMounting2 from "./Components/MountingPhase/LifeCycleMounting2";
+import LifeCycleMounting3 from "./Components/MountingPhase/LifeCycleMounting3";
+import LifeCycleMounting4 from "./Components/MountingPhase/LifeCycleMounting4";
 
 function App() {
   const name = "Arafat";
@@ -18,7 +21,10 @@ function App() {
         {/* </header> */}
         {/* <MountingP /> */}
         {/* <SetStateDepth1 /> */}
-        <SetStateDepth2 />
+        {/* <SetStateDepth2 /> */}
+        {/* <LifeCycleMounting2 /> */}
+        {/* <LifeCycleMounting3 /> */}
+        <LifeCycleMounting4 />
       </div>
     </>
   );
