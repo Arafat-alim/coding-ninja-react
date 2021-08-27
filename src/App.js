@@ -5,6 +5,9 @@ import LifecycleMounting from "./Components/MountingPhase/LifecycleMounting";
 import LifeCycleMounting2 from "./Components/MountingPhase/LifeCycleMounting2";
 import LifeCycleMounting3 from "./Components/MountingPhase/LifeCycleMounting3";
 import LifeCycleMounting4 from "./Components/MountingPhase/LifeCycleMounting4";
+import UpdatingEx1 from "./Components/UpdatingPhase/UpdatingEx1";
+import UpdateErrorLoop from "./Components/UpdatingPhase/UpdateErrorLoop";
+import UpdatingEx2 from "./Components/UpdatingPhase/UpdatingEx2";
 
 function App() {
   const name = "Arafat";
@@ -24,7 +27,10 @@ function App() {
         {/* <SetStateDepth2 /> */}
         {/* <LifeCycleMounting2 /> */}
         {/* <LifeCycleMounting3 /> */}
-        <LifeCycleMounting4 />
+        {/* <LifeCycleMounting4 /> */}
+        {/* <UpdatingEx1 /> */}
+        {/* <UpdateErrorLoop /> */}
+        <UpdatingEx2 />
       </div>
     </>
   );
